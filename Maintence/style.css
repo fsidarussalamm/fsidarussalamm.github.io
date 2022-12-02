@@ -1,0 +1,115 @@
+    /* reset css */
+    
+    * {
+        margin: 0;
+        padding-left: 0;
+    }
+    /* style container */
+    
+    .container {
+        position: relative;
+    }
+    /* style logo */
+    
+    .logo-fsi img {
+        width: 100px;
+        position: absolute;
+        top: 30px;
+        left: 180px;
+    }
+    /* style keterangan */
+    
+    .p1 {
+        font-family: 'Fredoka One', cursive;
+        font-size: 30px;
+        width: 300px;
+        position: absolute;
+        top: 160px;
+        left: 200px;
+    }
+    
+    .p1-1 {
+        font-family: 'Fredoka One', cursive;
+        font-size: 30px;
+        width: 300px;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+    
+    .p2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        width: 300px;
+        position: absolute;
+        top: 250px;
+        left: 200px;
+        line-height: 25px;
+    }
+    
+    span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .p3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        width: 300px;
+        position: absolute;
+        top: 380px;
+        left: 200px;
+        line-height: 30px;
+    }
+    
+    .p4 {
+        position: absolute;
+        top: 550px;
+        left: 200px;
+        font-family: 'Fredoka One', cursive;
+    }
+    /*  style animasi */
+    
+    .animasi {
+        position: absolute;
+        left: 550px;
+        top: 100px;
+    }
+    /* responsive */
+    
+    @media only screen and (max-width: 420px) {
+        .logo-fsi img {
+            left: 5px;
+            overflow-x: hidden;
+        }
+        .animasi {
+            left: 30px;
+        }
+        .animasi {
+            left: -3000px;
+            opacity: 0%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+        .p1 {
+            left: 20px;
+            overflow-x: hidden;
+        }
+        .p1-1 {
+            left: 20px;
+            overflow-x: hidden;
+        }
+        .p2 {
+            left: 20px;
+            overflow-x: hidden;
+        }
+        .p3 {
+            left: 20px;
+            overflow-x: hidden;
+        }
+        .p4 {
+            left: 20px;
+            width: 200px;
+            overflow-x: hidden;
+        }
+    }
