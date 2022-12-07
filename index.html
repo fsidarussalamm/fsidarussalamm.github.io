@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&display=swap" rel="stylesheet">
     <!-- end link font -->
 
     <!-- link AOS animation scroling -->
@@ -43,13 +47,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#about">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link active" aria-current="page" href="#bidang">Bidang-Bidang FSI</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -58,34 +62,27 @@
     <!-- end navbar -->
 
     <!-- carausel -->
-    <section id="carausel">
-        <div class="container">
-            <div class="row mt-5">
-                <div class="col">
-                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="aset/bg2.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item" data-bs-interval="2000">
-                                <img src="aset/smart-farm.jpg" class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="aset/bgg1.png" class="d-block w-100" alt="...">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="aset/smart-farm.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="aset/smart-farm.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="aset/smart-farm.jpg" class="d-block w-100" alt="...">
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+                        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     </section>
     <!-- end carausel -->
@@ -110,9 +107,9 @@
                 <p class="text-2">
                     FSI adalah oragnisasi UKM yang bergerak di bidang ke agamaan
                 </p>
-                <p class="link-1">
-                    <a href="#">Learn more</a>
-                </p>
+                <div class="link-1">
+                    <a href="#about">Learn more</a>
+                </div>
             </div>
 
         </div>
@@ -138,7 +135,7 @@
                     ; margin-top: 20px;">
                         سبحانك اللهم وبحمدك ، أشهد أن لا إله إلا أنت ، أستغفرك وأتوب إليك
                     </p>
-                    <p class="text-ketabout" style="text-align: center;">
+                    <p class="text-ket-about">
                         ‘Subhanaka allahumma wa bihamdika, asyhadu an laa ilaaha illa anta, astaghfiruka wa atubu ilaik.’ (Mahasuci Engkau ya Allah. Dan segala pujian terhatur untuk-Mu. Tiada ilah yang berhak disembah kecuali Engkau. Aku memohon ampun kepada-Mu dan aku bertobat
                         kepada-Mu.)
                     </p>
@@ -181,7 +178,7 @@
                         <p class="link-kaderisasi">
                             <a href="">
                                 Visit >>
-                           </a>
+                        </a>
                         </p>
                     </div>
                 </div>
@@ -241,6 +238,13 @@
     <section id="misi">
         <div class="container">
             <div class="row">
+                <div class="col">
+                    <p class="misi">
+                        MISI
+                    </p>
+                </div>
+            </div>
+            <div class="row" style="margin-top: -80px;">
                 <div class="col-12 col-md-4">
                     <div class="kotak-1" data-aos="fade-up">
                         <img src="aset/misi1.png" alt="">
@@ -271,7 +275,7 @@
     <!-- end misi FSI -->
 
     <!-- footer dan contact -->
-    <footer>
+    <footer id="contact">
         <p class="tulisan-fsidarussalam">
             FSI-Darussalam
         </p>
@@ -288,15 +292,11 @@
             <a href="https://web.facebook.com/fsi.darussalam">
                 <ion-icon name="logo-facebook"></ion-icon>
             </a>
-            <p class="tulisanfacebook">Fsi Darussalam</p>
-        </div>
-        <div class="yutube">
-            <a href="https://www.youtube.com/@pemudadarussalam7212/videos">
-                <ion-icon name="tv"></ion-icon>
-            </a>
+            <p class="tulisan-facebook">Fsi Darussalam</p>
         </div>
         <div class="email">
             <ion-icon name="mail"></ion-icon>
+            <p class="tulisan-email">fsid05@gmail.com</p>
         </div>
     </footer>
     <!-- end footer dan contact -->
