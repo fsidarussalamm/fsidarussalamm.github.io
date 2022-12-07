@@ -1,0 +1,457 @@
+/* css */
+
+* {}
+
+
+/* style logo */
+
+.logo {
+    width: 60px;
+}
+
+
+/* style navbar */
+
+#navbarNav ul li a {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* style animasi */
+
+.animasi-1 {
+    width: 500px;
+    margin-top: 40px;
+}
+
+
+/* style keterangan */
+
+.bismillah {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 160px;
+    margin-left: 100px;
+}
+
+.text-1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.text-2 {
+    font-size: 20px;
+    width: 300px;
+    margin-left: 100px;
+}
+
+.link-1 {
+    width: 150px;
+    height: 40px;
+    background-color: #04B5B1;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 60px;
+    overflow-y: hidden;
+}
+
+.link-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* style about */
+
+h2 {
+    font-size: 30px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.text-3 {
+    text-align: center;
+    width: 500px;
+    margin-left: 315px;
+    margin-top: 40px;
+}
+
+
+/* style bidang */
+
+.bidang {
+    font-size: 25px;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 458px;
+}
+
+.box-1 {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #04B5B1;
+}
+
+.box-1 img {
+    width: 150px;
+    margin-left: 35px;
+}
+
+.media {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link-media {
+    width: 140px;
+    height: 40px;
+    background-color: #04B5B1;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.link-media a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-2 {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #04B5B1;
+}
+
+.box-2 img {
+    width: 150px;
+    margin-left: 50px;
+}
+
+.link-kaderisasi {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #04B5B1;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+.kaderisasi {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link-kaderisasi a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box-3 {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #04B5B1;
+}
+
+.box-3 img {
+    width: 155px;
+    margin-left: 45px;
+    margin-top: -6px;
+}
+
+.link-kemuslimahan {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #04B5B1;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+.kemuslimahan {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link-kemuslimahan a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box-4 {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #04B5B1;
+}
+
+.box-4 img {
+    width: 155px;
+    margin-left: 45px;
+    margin-top: -6px;
+}
+
+.link-syiardandakwah {
+    width: 140px;
+    height: 40px;
+    background-color: #04B5B1;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 55px;
+}
+
+.syiardandakwah {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link-syiardandakwah a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* style VISI */
+
+.visi {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.text-4 {
+    font-size: 20px;
+    width: 500px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+
+/* style MISI */
+
+.kotak-1 {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #04B5B1;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.kotak-1 img {
+    width: 150px;
+    margin-left: 40px;
+}
+
+.misi-1 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.kotak-2 {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #04B5B1;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.kotak-2 img {
+    width: 150px;
+    margin-left: 40px;
+}
+
+.misi-2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.kotak-3 {
+    width: 250px;
+    height: 300px;
+    border: 3px solid #04B5B1;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.kotak-3 img {
+    width: 150px;
+    margin-left: 48px;
+}
+
+.misi-3 {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 350px;
+    background-color: #04B5B1;
+    margin-top: 20px;
+    position: relative;
+}
+
+.tulisan-fsidarussalam {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    top: 34px;
+    left: 180px;
+}
+
+.logo-2 img {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.instagram a {
+    color: white;
+    font-size: 35px;
+    margin-left: 170px;
+}
+
+.instagram {
+    margin-top: 20px;
+}
+
+.facebook a {
+    color: white;
+    font-size: 35px;
+    margin-left: 170px;
+}
+
+.yutube a {
+    color: white;
+    font-size: 35px;
+    margin-left: 170px;
+}
+
+.email {
+    color: white;
+    font-size: 35px;
+    margin-left: 170px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 330px) {
+    * {}
+    .animasi-1 {
+        width: 320px;
+        margin-left: -10px;
+        height: 320px;
+    }
+    .bismillah {
+        font-size: 28px;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+    .text-1 {
+        margin-left: 10px;
+    }
+    .text-2 {
+        margin-left: 10px;
+    }
+    .link-1 {
+        margin-left: 5px;
+        overflow-y: hidden;
+    }
+    h2 {
+        overflow-y: hidden;
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .text-3 {
+        margin-left: -2px;
+        width: 300px;
+    }
+    .bidang {
+        font-size: 20px;
+        font-weight: bold;
+        width: 150px;
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+    .box-1 {
+        margin-left: 25px;
+        overflow-y: hidden;
+    }
+    .box-2 {
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .link-kaderisasi {
+        overflow-y: hidden;
+    }
+    .box-3 {
+        margin-top: 20px;
+        margin-left: 25px;
+        overflow-y: hidden;
+    }
+    .link-kemuslimahan {
+        overflow-y: hidden;
+    }
+    .box-4 {
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .link-syiardandakwah {
+        overflow-y: hidden;
+    }
+    .visi {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .text-4 {
+        margin-left: -1px;
+        width: 300px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .kotak-1 {
+        margin-left: 25px;
+    }
+    .kotak-2 {
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+    .kotak-3 {
+        margin-left: 25px;
+        margin-top: 30px;
+    }
+}
