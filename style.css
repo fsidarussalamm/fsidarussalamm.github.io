@@ -449,7 +449,7 @@ footer {
     * {}
     .animasi-1 {
         width: 320px;
-        margin-left: -10px;
+        margin-left: 10px;
         height: 320px;
         margin-top: 20px;
     }
@@ -487,11 +487,11 @@ footer {
         margin-top: 100px;
     }
     .box-1 {
-        margin-left: 30px;
+        margin-left: 40px;
         overflow-y: hidden;
     }
     .box-2 {
-        margin-left: 30px;
+        margin-left: 40px;
         margin-top: 20px;
     }
     .link-kaderisasi {
@@ -499,14 +499,14 @@ footer {
     }
     .box-3 {
         margin-top: 20px;
-        margin-left: 30px;
+        margin-left: 40px;
         overflow-y: hidden;
     }
     .link-kemuslimahan {
         overflow-y: hidden;
     }
     .box-4 {
-        margin-left: 30px;
+        margin-left: 40px;
         margin-top: 20px;
     }
     .link-syiardandakwah {
@@ -514,23 +514,26 @@ footer {
     }
     .visi {
         margin-top: 50px;
-        margin-left: 5px;
+        margin-left: 10px;
+    }
+    .misi {
+        margin-left: 15px;
     }
     .text-4 {
-        margin-left: 10px;
+        margin-left: 15px;
         width: 300px;
         font-size: 18px;
         margin-top: 10px;
     }
     .kotak-1 {
-        margin-left: 30px;
+        margin-left: 40px;
     }
     .kotak-2 {
-        margin-left: 30px;
+        margin-left: 40px;
         margin-top: 30px;
     }
     .kotak-3 {
-        margin-left: 30px;
+        margin-left: 40px;
         margin-top: 30px;
     }
     .logo-2 img {
